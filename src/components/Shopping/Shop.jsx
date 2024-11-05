@@ -55,6 +55,7 @@ const Shop = () => {
               />
               <h3 className="text-xl font-bold text-[#e6e8eb]">{product.name}</h3>
               <p className="text-[#aebbc9]">{product.price}</p>
+              <p className="text-[#aebbc9]">{product.stock}</p>
               <button
                 onClick={() => handleBuyClick(product)}
                 className="w-[100%] mt-4 px-4 py-2 bg-[#5f81a9] text-white rounded-md hover:bg-[#5f81a9]/80"
